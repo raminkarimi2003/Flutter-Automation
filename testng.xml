@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <listeners>
+  <listener class-name="resources.Listeners"/>
+  <!--listener class-name="resources.ExtentReporterNG"/-->
+</listeners>
+  <test thread-count="5" name="Test">
+    <groups>
+      <run>
+         <include name="TestGroup"/>      
+      </run>
+    </groups>
+    <classes>
+      <class name="impertoRental.AccountPageContactLink"/>
+      <class name="impertoRental.ActivationAttemptBeforePrecheckSubmission"/>
+      <class name="impertoRental.AssertRentalPeriodInDrive"/>   
+      <class name="impertoRental.AvailableEquipmentLink"/>
+      <class name="impertoRental.BLEDisruptionDuringDriveTab"/>
+      <class name="impertoRental.BLEDisruptionDuringPostcheck"/>
+      <class name="impertoRental.BLEDisruptionDuringPrecheck"/>
+      <class name="impertoRental.BookingAttemptWithAirplaneModeEnabled"/>
+      <class name="impertoRental.BookingAttemptWithNoWiFi"/>
+      <class name="impertoRental.CallTabLinkVerification"/>  
+      <class name="impertoRental.ChangeLanguageWhileAppClosed"/>
+      <class name="impertoRental.ChangeLanguageWhileInApp"/>
+      <class name="impertoRental.CloseAndLaunchApp"/>
+      <class name="impertoRental.ConnectAndDisconnectOnDriveAsOperator"/>
+      <class name="impertoRental.ConnectionAndDisconnectionTime"/>
+      <class name="impertoRental.EquipmentNameAssertion"/>
+      <class name="impertoRental.EquipmentStatusAfterActivation"/> 
+      <class name="impertoRental.EquipmentStatusBeforeActivation"/>
+      <class name="impertoRental.EquipmentUnlockedAfterConnection"/>
+      <class name="impertoRental.ExtendedRental"/>
+      <class name="impertoRental.ForgotUserPassword"/>
+      <class name="impertoRental.GetHelpWithEquipment"/>
+      <class name="impertoRental.IncorrectUsernameAndCorrectPasswordLogin"/>
+      <class name="impertoRental.IncorrectUsernameAndIncorrectPasswordLogin"/>
+      <class name="impertoRental.InitialConnectionAtemptWithDisabledBLE"/> 
+      <class name="impertoRental.LandscapePhotoCapture"/>
+      <class name="impertoRental.LeavingAndRelaunching"/>
+      <class name="impertoRental.LicensePlateTest"/>
+      <class name="impertoRental.LoginandOut"/>
+      <class name="impertoRental.LoginAtemptWithEnabledAirplaneMode"/>
+      <class name="impertoRental.LoginAtemptWithNoWiFi"/>
+     
+      
+     
+      <!--class name="ZeppelinRental.GeneralRentTest"/>
+      
+     
+        
+       
+  
+     
+      
+      
+      <class name="ZeppelinRental.ModifySetDateOnMainCalendarAndDetailView"/>
+      <class name="ZeppelinRental.NoUsernameAndPasswordLogin"/>
+      
+      <class name="ZeppelinRental.PostUseSubmissionIfKeyisOff"/>
+      
+      <class name="ZeppelinRental.Post_checkSubmissionWithNoWiFi"/>
+      <class name="ZeppelinRental.Pre_checkCommentAssertionAndUpdate"/>
+      <class name="ZeppelinRental.Pre_checkPhotoAccept"/>
+      <class name="ZeppelinRental.Pre_checkSubmissionWithNoWiFi"/>
+      <class name="ZeppelinRental.PullDownRefreshAssetPage"/> 
+      <class name="ZeppelinRental.PullDownRefreshRentedEquipment"/>
+      <class name="ZeppelinRental.QuitAndLaunchApp"/>
+      
+      
+      <class name="ZeppelinRental.SetDateDetailView"/>
+      <class name="ZeppelinRental.SetDateOnMainCalendar"/>
+      <class name="ZeppelinRental.SwitchAppsOnDriveAsTech"/>
+       <class name="ZeppelinRental.GetHelpWithRental"/>
+      <class name="ZeppelinRental.TermsOfServiceLink"/>
+      <class name="ZeppelinRental.TransitioningOfflineToOnlineOnAvailableforRent"/>
+      <class name="ZeppelinRental.UsingPinWithNoWiFi"/>
+      <class name="ZeppelinRental.ViewCatalougeLink"/--> 
+     </classes> 
+  </test> 
+</suite> 

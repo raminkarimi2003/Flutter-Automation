@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="434632" started-at="2022-02-25T12:14:26 EST" finished-at="2022-02-25T12:21:41 EST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="434632" started-at="2022-02-25T12:14:26 EST" finished-at="2022-02-25T12:21:41 EST">
+      <class name="ZeppelinRental.GeneralRentTest">
+        <test-method status="PASS" signature="KillAllNodes()[pri:0, instance:ZeppelinRental.GeneralRentTest@1500955a]" name="KillAllNodes" is-config="true" duration-ms="14" started-at="2022-02-25T12:14:26 EST" finished-at="2022-02-25T12:14:26 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KillAllNodes -->
+        <test-method status="PASS" signature="GeneralRental()[pri:0, instance:ZeppelinRental.GeneralRentTest@1500955a]" name="GeneralRental" duration-ms="430729" started-at="2022-02-25T12:14:26 EST" finished-at="2022-02-25T12:21:37 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GeneralRental -->
+        <test-method status="PASS" signature="StopServer()[pri:0, instance:ZeppelinRental.GeneralRentTest@1500955a]" name="StopServer" is-config="true" duration-ms="3868" started-at="2022-02-25T12:21:37 EST" finished-at="2022-02-25T12:21:41 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopServer -->
+      </class> <!-- ZeppelinRental.GeneralRentTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
